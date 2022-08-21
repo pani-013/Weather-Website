@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Comfortaa:wght@300&family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url(Unsplash\ foggy\ forest.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bar {
+    width: 80%;
+    height: 80vh;
+    /* border: 2px solid red; */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background-color: rgb(0 0 0 / 13%);
+    box-shadow: 0px 0px 20px 11px #00000066;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input {
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 5px #00000026;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.row h2 {
+    font-size: 3rem;
+}
+
+.row h4 {
+    font-size: 1.5rem;
+}
+
+.row img {
+    width: 150px;
+}
